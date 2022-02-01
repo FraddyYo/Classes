@@ -1,7 +1,7 @@
 package com.company;
 
 public class Author {
-    private String name;
+    String name;
 
     public Author(String name) {
         this.name = name;

@@ -3,11 +3,14 @@ package com.company;
 public class Book {
     String name;
     private int yearOfPublication;
+    String author1;
 
 
-    public Book(String name, int yearOfPublication) {
+    public Book(String name, int yearOfPublication, String author) {
         this.name = name;
         this.yearOfPublication = yearOfPublication;
+        this.author1 = author;
+
     }
 
     public Book() {
