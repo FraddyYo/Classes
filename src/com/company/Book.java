@@ -1,15 +1,15 @@
 package com.company;
 
 public class Book {
-    String name;
+    private String name;
     private int yearOfPublication;
-    String author1;
+    private Author author;
 
 
-    public Book(String name, int yearOfPublication, String author) {
+    public Book(String name, int yearOfPublication, Author author) {
         this.name = name;
         this.yearOfPublication = yearOfPublication;
-        this.author1 = author;
+        this.author = author;
 
     }
 
@@ -20,6 +20,9 @@ public class Book {
 
     public Book(String name) {
         this.name = name;
+    }
+
+    public Book(String мертвые_души, int yearOfPublication, String gogol) {
     }
 
 

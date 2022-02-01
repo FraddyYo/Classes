@@ -22,7 +22,7 @@ public class Main {
         Book authorNew = new Book("Лев Николаевич Толстой");
         System.out.println("authorNew.name = " + authorNew.getName());
         Author author1 = new Author("Gogol");
-        System.out.println("author.name = " + author1.name);
+        System.out.println("author.name = " + author.getName());
 
 
     }
