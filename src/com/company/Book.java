@@ -3,10 +3,10 @@ package com.company;
 public class Book {
     private String name;
     private int yearOfPublication;
-    private Author author;
+    private String author;
 
 
-    public Book(String name, int yearOfPublication, Author author) {
+    public Book(String name, int yearOfPublication, String author) {
         this.name = name;
         this.yearOfPublication = yearOfPublication;
         this.author = author;
@@ -16,7 +16,7 @@ public class Book {
 
 
     public String toString() {
-        return "Книга " + this.name + " Год публикации " + this.yearOfPublication + " Автор ";
+        return "Книга " + this.name + " Год публикации " + this.yearOfPublication + " Автор " + this.author;
 
     }
 
