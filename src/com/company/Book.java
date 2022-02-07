@@ -11,18 +11,18 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
         this.author = author;
 
-    }
-
-    public Book() {
-        String name;
 
     }
+
+
+    public String toString() {
+        return "Книга " + this.name + " Год публикации " + this.yearOfPublication + " Автор ";
+
+    }
+
 
     public Book(String name) {
         this.name = name;
-    }
-
-    public Book(String мертвые_души, int yearOfPublication, String gogol) {
     }
 
 
